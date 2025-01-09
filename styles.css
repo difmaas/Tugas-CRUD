@@ -1,0 +1,126 @@
+/* CSS Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body */
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    height:100vh; /* Menjaga tinggi layar penuh */
+}
+
+header {
+    text-align: center;
+    margin-top: 20px;
+    padding: 40px 20px 20px 20px;
+}
+/* Main content section */
+main {
+    flex-grow: 1; /* Menggunakan sisa ruang yang tersedia */
+    margin-top: 20px;
+    padding: 20px 20px 20px 20px;
+}
+
+a.main {
+    /* Gaya untuk link yang terlihat seperti tombol */
+    display: inline-block; /* Membuat elemen seperti tombol */
+    padding: 10px 20px; /* Menambahkan ruang di sekitar teks */
+    background-color: gray; /* Warna latar belakang tombol */
+    color: white; /* Warna teks tombol */
+    text-align: center; /* Menyelaraskan teks di tengah */
+    text-decoration: none; /* Menghilangkan garis bawah */
+    border-radius: 5px; /* Membuat sudut tombol melengkung */
+    font-size: 16px; /* Ukuran font tombol */
+}
+
+a.main:hover {
+    background-color: black;
+}
+
+/* CSS untuk tabel */
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+
+th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+
+td {
+    background-color: #fff;
+}
+
+/* Gaya untuk link Edit dan Delete */
+a {
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+/* Gaya untuk tombol Edit */
+.edit-btn {
+    background-color: #4CAF50; /* Warna hijau untuk Edit */
+}
+
+.edit-btn:hover {
+    background-color: #45a049;
+}
+
+/* Gaya untuk tombol Delete */
+.delete-btn {
+    background-color: #f44336; /* Warna merah untuk Delete */
+}
+
+.delete-btn:hover {
+    background-color: #e53935;
+}
+
+/* Gaya untuk tombol Kembali dan Tambah */
+.button-container {
+    text-align: center;
+    margin-top: 20px; /* Memberikan jarak antara tabel dan tombol */
+}
+
+.button-container button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 0 10px; /* Memberikan jarak antara tombol */
+}
+
+/* Tombol Kembali */
+.back-btn {
+    background-color: gray; /* Warna biru untuk Kembali */
+    color: white;
+    border: none;
+}
+
+.back-btn:hover {
+    background-color: black; /* Warna biru lebih gelap saat hover */
+}
+
+/* Tombol Tambah */
+.add-btn {
+    background-color: gray; /* Warna hijau untuk Tambah */
+    color: white;
+    border: none;
+}
+
+.add-btn:hover {
+    background-color: black; /* Warna hijau lebih gelap saat hover */
+}
