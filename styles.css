@@ -103,24 +103,34 @@ a {
     margin: 0 10px; /* Memberikan jarak antara tombol */
 }
 
-/* Tombol Kembali */
-.back-btn {
-    background-color: gray; /* Warna biru untuk Kembali */
-    color: white;
-    border: none;
-}
-
-.back-btn:hover {
-    background-color: black; /* Warna biru lebih gelap saat hover */
-}
-
 /* Tombol Tambah */
-.add-btn {
+.add-btn1 {
     background-color: gray; /* Warna hijau untuk Tambah */
     color: white;
     border: none;
 }
 
-.add-btn:hover {
+.add-btn1:hover {
     background-color: black; /* Warna hijau lebih gelap saat hover */
+}
+
+label {
+    display: block;
+    margin: 10px 0 5px;
+    color: #333;
+}
+input[type="text"], input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.container {
+    width: 50%;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
 }
