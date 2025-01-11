@@ -1,35 +1,21 @@
+<?php
+include "connection.php"
+?>
+
 <!DOCTYPE html>
-<html lang="id">
+<html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Form Tambah Daftar Barang Baru</title>
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tambah barang</title>
 </head>
 <body>
-
-<div class="container">
-    <h1>Tambah Daftar Barang Baru</h1>
-    <form action="daftar-barang.php" method="POST">
-        <!-- Nama Barang -->
-        <label for="nama_barang">Nama Barang:</label>
-        <input type="text" id="nama" name="nama" required>
-
-        <!-- Ruangan -->
-        <label for="ruangan">Ruangan:</label>
-        <input type="text" id="ruangan" name="ruangan" required>
-
-        <!-- Banyaknya Unit -->
-        <label for="banyaknya_unit">Banyaknya Unit:</label>
-        <input type="number" id="banyaknya_unit" name="unit" required>
-
-        <!-- Tombol Submit -->
-        <div class="button-container">
-            <button class="add-btn1" type="submit">submit</button>
-            <button class="add-btn1"><a href="daftar-barang.php">Kembali</a></button>
-        </div>
+    <header>
+        <h1>Daftar barang</h1>
+        <p>Berikut adalah daftar barang dan inventori yang sudah dicatat</p>
+    </header>
+    <form action="" method="post">
+    <label for="nama"></label>
     </form>
-</div>
-
 </body>
 </html>
